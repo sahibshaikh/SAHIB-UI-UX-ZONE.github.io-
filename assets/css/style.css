@@ -278,12 +278,18 @@ h6 {
     height: 100vh;
     background: url("../img/profile-pic.jpeg") top right no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 @media (min-width: 992px) {
     #hero {
         padding-left: 160px;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero {
+        background: url("../img/web-bg.jpeg") top right no-repeat;
+        background-size: 130vh;
     }
 }
 
