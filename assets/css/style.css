@@ -286,12 +286,12 @@ h6 {
     }
 }
 
-@media (max-width: 500px) {
+<!-- @media (max-width: 500px) {
     #hero {
         background: url("../img/web-bg.jpeg") top right no-repeat;
         background-size: 130vh;
     }
-}
+} -->
 
 #hero:before {
     content: "";
